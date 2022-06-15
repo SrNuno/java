@@ -1,0 +1,15 @@
+digraph "bol7_ej9:bol7_ej9:jar:1.0-SNAPSHOT" { 
+	"bol7_ej9:bol7_ej9:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter:jar:5.6.0:test" ; 
+	"bol7_ej9:bol7_ej9:jar:1.0-SNAPSHOT" -> "org.assertj:assertj-core:jar:3.15.0:test" ; 
+	"bol7_ej9:bol7_ej9:jar:1.0-SNAPSHOT" -> "org.mockito:mockito-core:jar:3.3.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.0:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.0:test" -> "org.junit.jupiter:junit-jupiter-params:jar:5.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter:jar:5.6.0:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.0:test" ; 
+	"org.mockito:mockito-core:jar:3.3.0:test" -> "net.bytebuddy:byte-buddy:jar:1.10.5:test" ; 
+	"org.mockito:mockito-core:jar:3.3.0:test" -> "net.bytebuddy:byte-buddy-agent:jar:1.10.5:test" ; 
+	"org.mockito:mockito-core:jar:3.3.0:test" -> "org.objenesis:objenesis:jar:2.6:test" ; 
+ } 
